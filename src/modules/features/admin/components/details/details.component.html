@@ -1,0 +1,22 @@
+<div class="ui vertical secondary segment">
+<div class="ui container" style="margin-top:5rem; margin-bottom:5rem">
+    <div class="ui grid">
+        <div class="four wide column">
+            <div class="ui vertical pointing menu">
+                <a class="active item" routerLink="/details/dashboard" routerlinkActive="active">Dashbooard</a>
+                <a class="item" routerLink="/details/dashboard" routerlinkActive="active">Packages</a>
+                <a class="item">Shipments</a>
+                <a class="item">Invoice</a>
+                <a class="item">Customers</a>
+                <a class="item">Users</a>
+                <a class="item">Roles</a>
+                <a class="item">Settings</a>
+
+            </div>
+        </div>
+        <div class="twelve wide column"> 
+            <router-outlet></router-outlet>
+        </div>
+    </div>
+</div>
+</div>

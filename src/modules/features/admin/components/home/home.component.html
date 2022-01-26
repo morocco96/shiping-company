@@ -1,0 +1,197 @@
+<section class="board">
+    <div class="overlay">
+<div class="ui container">
+<h1 class="ui header">
+    Ship your items from the United<br> State & United Kingdom to<br> Nigeria
+</h1>
+<p>We provide efficient air and sea cargo services from the US & UK to <br> Nigeria at affordable rates.</p>
+<div class="btn-container">
+    <button class="btn-1">Get Started</button>
+    <button class='btn-2'>Download App</button>
+</div>
+</div>
+</div>
+</section>
+
+<section class="track">
+    
+    <div fxLayout="column" fxLayoutAlign="center center">
+        <div id="head">Track Your Shipment</div>
+        <div class="ui icon right input">
+            <input type="text" placeholder="Enter tracking Id">
+            <i class="search icon"></i>
+        </div>
+    </div>
+</section>
+
+<section class="service">
+    <div class="ui container">
+       <div class="service-header">
+        <h2 class="ui header">Services We Offer</h2>
+       </div>
+    <div fxLayout="row" fxLayoutAlign="space-between center" fxLayoutGap="20px">
+        <div *ngFor="let item of items">
+            <img src={{item.img}} alt="">
+            <span class="text">{{item.text}}</span>
+        </div>
+    </div>
+</div>
+</section>
+
+<section class="why-us">
+   <div class="ui container">
+    <div class="head">
+        <h2 class="ui header">Why-Us</h2>
+    </div>
+    <div fxLayout="row" fxLayoutAlign="space-between center" fxLayoutGap="30px">
+        <div class="ui raised card" >
+            <div class="content">
+                <h3 class="header">
+                    Affordable
+                </h3>
+               <div class="description">
+                <p > 
+                    We provide efficient air and sea cargo services from the UK to Nigeria at affordable rates
+                </p>
+               </div>
+            </div>
+        </div>
+
+
+        <div class="ui raised card" >
+            <div class="content">
+                <h3 class="header">
+                    Trust
+                </h3>
+               <div class="description">
+                <p> We take pride, not only in how we run our business but also in the relationship that we build with our customers.</p>
+               </div>
+            </div>
+           </div>
+
+        <div class="ui raised card">
+            <div class="content">
+                <h3 class="header">
+                    Expertise
+                </h3>
+               <div class="description">
+                <p> We offer Product Sourcing from the United Kingdom, which includes but not limited to the procurement of industrial parts, machinery and equipment.</p>
+               </div>
+            </div>
+            </div>
+
+    </div>
+   </div>
+
+</section>
+
+<section class="update">
+    <div class="ui container">
+        <div fxLayout="row">
+            <div fxFlex="50%"  class="app" >
+                <h2 class="header">Stay Updated with our App</h2>
+                <p>We provide efficient air and sea cargo services <br> from the UK to Nigeria at affordable rates</p>
+               <div class="ui form">
+                <div class="field">
+                    <sui-checkbox >
+                        Fast
+                    </sui-checkbox>
+                </div>
+
+                <div class="field">
+                    <sui-checkbox >
+                        Convinience
+                    </sui-checkbox>
+                </div>
+
+                <div class="field">
+                    <sui-checkbox >
+                        Flexible
+                    </sui-checkbox>
+                </div>
+               </div>
+               <div class="google">
+                   <img src="assets/images/google.svg" alt="">
+                   <img src="assets/images/google.svg" alt="">
+                  
+               </div>
+            </div>
+            <div fxFlex="50%" class="login-field" fxLayout="row" >
+                <div class="login">
+                    <img src="assets/images/logo.svg" alt="">
+
+                    <h3 class="ui primary header">Fast Delivery</h3>
+                    <div class="flight">
+                        <img src="assets/images/flight.svg" alt="">
+                    </div>
+                    <p>Fast and seemless shipping
+                        from United States and 
+                        United Kingdom</p>
+
+                        <button class="ui primary fluid button">Skip</button>
+                </div>
+
+
+                <div class="login-2">
+                    <img src="assets/images/logo.svg" alt="">
+
+                    <h3 class="ui primary header">Sign In</h3>
+                    
+                    <div class="form-section ">
+                        <form class="ui form">
+                            <div class="field">
+                              <label class="sub-label" >Username</label>
+                              <input type="text" >
+                            </div>
+                            <div class="field">
+                              <label class="sub-label">Password</label>
+                              <input type="password">
+                            </div>
+                            <label style="float:right; margin-bottom:20px;">Forgot Password?</label>
+
+                           <div>
+                            <button class="ui white button">Login</button>
+                           </div>
+
+                            </form>
+                            Create a new account
+                    </div>
+                        
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="started">
+<div class="ui container">
+    <div class="head">
+        <h2>Get started</h2>
+        <p>Get your items/goods delivered to your doorstep in four (4) easy steps</p>
+    </div>
+
+    <div fxLayout="row" fxLayoutGap="10px">
+        <div class="items">
+            <i class="edit outline icon"></i>
+            Register
+        </div>
+
+        <div class="items">
+            <i class="shopping cart icon"></i>
+            Make your order
+        </div>
+
+        <div class="items">
+            <i class="map outline icon"></i>
+            Ship to our address
+        </div>
+
+        <div class="items">
+            <i class="location arrow icon"></i>
+            We deliver to you
+        </div>
+    </div>
+</div>
+</section>
+
+

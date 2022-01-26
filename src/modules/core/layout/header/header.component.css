@@ -1,0 +1,37 @@
+#link {
+    width: 114.09px;
+    height: 39px;
+    color:#fff;
+    margin-right:10px;
+    background: linear-gradient(95.61deg, #2B3D90 -23.25%, #26A5DF 93.22%);
+    border-radius: 4.72727px;       
+    padding: 4.72727px 26px;
+    text-align:center;
+    font-size:16px;
+    transition:0.5s;
+}
+
+#link:Active {
+    border:1px solid;
+    background: linear-gradient(95.61deg, #2B3D90 -23.25%, #26A5DF 93.22%);
+}
+
+.ui.secondary.menu .item {
+    color: #000000 ;
+    font-weight:700;
+}
+
+.ui.secondary.menu .item:hover {
+    background:#26A5DF;
+    color:#fff;
+}
+
+.ui .secondary .menu .item:hover {
+    background:none !important;
+}
+
+#menu {
+    background:#fff;
+    box-shadow: 5px 5px 10px rgb(161, 157, 157);
+   
+}

@@ -1,0 +1,12 @@
+.ui.vertical.pointing .active {
+    background: #2893D2 !important;
+    color:#ffff;
+}
+.ui.vertical.pointing.menu .active.item:after {
+    background: #2893D2 !important;
+}
+
+.ui.vertical.pointing.menu .item:hover {
+    background: #2893D2 !important;
+    color:#fff;
+}

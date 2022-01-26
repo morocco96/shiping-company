@@ -1,0 +1,13 @@
+footer {
+    background:#000000;
+    color:#ffffff;
+    padding:40px 0;
+}
+
+footer h2 {
+    color:#ffff;
+}
+
+.sub-label {
+    margin-right: 15px;
+}
